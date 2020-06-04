@@ -1,0 +1,126 @@
+body{
+  background-color:white;
+}
+
+label{
+  display:none;
+  align-items: center;
+  font-family: 'Kanit', sans-serif;
+
+}
+
+button{
+  font-family: 'Kanit', sans-serif;
+
+}
+
+input{
+  font-family: 'Kanit', sans-serif;
+  color: rgb(31, 189, 0); 
+  background-color: white;
+  border:2px solid rgb(31, 189, 0); 
+}
+input:hover{
+  color:black; 
+  border:2px solid rgb(0, 103, 199);
+
+}
+.radioInput{
+  margin: 0 0.5rem 0;
+  
+  
+}
+
+h1{
+  font-family: 'Lexend Tera', sans-serif;
+  color: black;
+}
+
+h3{
+  font-family: 'Lexend Tera', sans-serif;
+  color: black;
+
+}
+
+p{
+  font-family: 'Lexend Tera', sans-serif;
+  color: black;
+}
+
+.btn-outline-primary{
+  display: block;
+}
+
+.country{
+  display:inline-flex;
+  align-items: center;
+
+}
+
+.btn-outline-secondary{
+  font-family: 'Kanit', sans-serif;
+}
+.dropdown-item{
+  font-family: 'Kanit', sans-serif;
+}
+
+.fakeInput{
+  border:none;
+  color: black; 
+  width: 500px;
+
+}
+.fakeInput:hover{
+  color:black; 
+  background-color: white;
+  border:none;
+
+}
+
+
+#inputInCodesId{
+  position: relative;
+  top: -702px;
+  left: 110px;
+}
+.container{
+  position: relative;
+  bottom: 120px;
+
+}
+
+.container1{
+  position: relative;
+  bottom: 50px;
+  left: 120px;
+
+
+}
+/*
+.bubbles{
+  position: relative;
+  left: 350px;
+  top: 20px;
+
+}
+
+
+.doubleChart{
+  position: relative;
+  left: 350px;
+  top: 20px;
+
+}
+
+.soloChart{
+  position: relative;
+  left: 350px;
+  top: 20px;
+}
+
+.infos{
+  position: relative;
+  top: 120px;
+
+
+}*/
