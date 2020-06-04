@@ -1,24 +1,24 @@
-# d3visualisation
+# d3visualisation<br>
 
-# description
+# description<br>
 
-Hermes is a web application that visualises data from worldbank thanks to d3 library
+Hermes is a web application that visualises data from worldbank thanks to d3 library<br>
 
-# Installation
+# Installation<br>
 
-Install MySQL and PHP.
+Install MySQL and PHP.<br>
 
 
-# Usage
+# Usage<br>
 
-Start your DBMS (MySQL) service
+Start your DBMS (MySQL) service<br>
 Start the Server of the project<br>
-load welocome.php to you browser
-explore project
+load welocome.php to you browser<br>
+explore project<br>
 
 
 
-# Usage
+# Usage<br>
 
-ADD more Indicator Codes
-ADD more countries
+ADD more Indicator Codes<br>
+ADD more countries<br>
