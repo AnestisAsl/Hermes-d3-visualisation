@@ -40,7 +40,13 @@ if(isset($_POST["doubleBarChartBtn"])){
     }
 }
 if(isset($_POST["horizontalLinesChartBtn"])){
-    header("Location:horizantalLines.php");
+    if($_SESSION['country']==''){
+        echo "<div class='alert alert-danger'>
+        <h3>Plese enter some countries</h3>
+        </div> ";
+    }else{
+        header("Location:horizantalLines.php");
+    }
 }
 
 if(isset($_POST["indicatorCode"])){
