@@ -12,7 +12,7 @@ Install MySQL and PHP.
 # Usage
 
 Start your DBMS (MySQL) service
-Start the Server of the project\n
+Start the Server of the project
 load welocome.php to you browser
 explore project
 
