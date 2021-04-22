@@ -1,5 +1,5 @@
-# d3 visualisation App named<br> 
-Hermes
+# d3 visualisation App named Hermes<br> 
+
 # Description<br>
 
 Hermes is a web application that visualises data from worldbank thanks to d3 library<br>
