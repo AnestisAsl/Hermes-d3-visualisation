@@ -10,6 +10,7 @@ Install Xampp,MySQL and PHP.<br>
 
 # Usage<br>
 At your xampp control Panel start the MySQL server and the Apatche.<br>
+Load the data(3 .csv each represents a table at your database) from the HermesInput folder to your database.
 Load welocome.php to you browser.<br>
 Explore the project.<br>
 
