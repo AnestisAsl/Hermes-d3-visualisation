@@ -18,3 +18,7 @@ Explore the project.<br>
 Add more Indicator Codes and countries from worldbank.<br>
 Add more chart types.<br>
 Add PHPUnit tests.<br>
+
+# Note<br>
+The application has been updated so the contents at the deliverables folder are not up to date.<br>
+The deliverables folder will be updated soon.
