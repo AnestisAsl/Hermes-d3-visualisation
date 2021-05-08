@@ -1,0 +1,164 @@
+body {
+  background: url(../images/welcome.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  margin: none;
+}
+.container {
+  width: 100vw;
+  height: 100vw;
+  display: grid;
+  grid-template-columns: 10vw 10vw 60vw 10vw 10vw;
+  grid-template-rows: 25vw 25vw 25vw 25vw;
+}
+h1 {
+  font-family: "Lexend Tera", sans-serif;
+  color: white;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  justify-self: center;
+  align-self: start;
+}
+p {
+  font-family: "Lexend Tera", sans-serif;
+  color: white;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  align-self: center;
+  justify-self: center;
+}
+
+form {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  align-self: end;
+  justify-self: center;
+}
+
+button {
+  width: 450px;
+  font-size: 35px;
+  color: #15f4ee;
+  background: rgb(83, 27, 6);
+  font-family: "Lexend Tera", sans-serif;
+  font-weight: 400px;
+  border: 5px solid #15f4ee;
+  letter-spacing: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+}
+
+button:hover {
+  box-shadow: 0 5px 20px 0 #15f4ee inset, 0 5px 20px 0 #15f4ee inset,
+    0 5px 20px 0 #15f4ee inset, 0 5px 20px 0 #15f4ee inset;
+  text-shadow: 0 0 5px #052423, 0 0 5px #052423;
+}
+
+.informations {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+
+.answers {
+  color: black;
+}
+
+.questions {
+  color: black;
+  font-size: 20px;
+}
+
+.earth {
+  margin-top: 5px;
+  width: 300px;
+  height: 300px;
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: start;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
+}
+
+.earth > div {
+  width: 200%;
+  height: 100%;
+  animation: spin 30s linear alternate infinite;
+  background: url(../images/earth.jpg);
+  background-size: cover;
+}
+
+@keyframes spin {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    height: 50vw;
+    grid-template-rows: 25vw 25vw 25vw;
+    grid-template-columns: 100vw;
+  }
+  .earth {
+    display: none;
+  }
+  h1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: unset;
+    grid-column-end: unset;
+    font-size: 25px;
+  }
+  p {
+    font-family: "Lexend Tera", sans-serif;
+    color: black;
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    align-self: center;
+    justify-self: start;
+    font-size: 9px;
+  }
+  form {
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-self: start;
+  }
+  button {
+    width: 150px;
+    font-size: 10px;
+  }
+  .informations {
+    margin-top: 5px;
+    grid-column-start: unset;
+    grid-column-end: unset;
+    grid-row-start: 5;
+    grid-row-end: 5;
+  }
+  .questions {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 780px) {
+  body {
+    font-size: 13px;
+  }
+}
