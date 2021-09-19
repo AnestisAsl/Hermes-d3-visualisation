@@ -1,4 +1,4 @@
-# d3 visualisation App named Hermes<br> 
+#Hermes-de-visualisation<br> 
 
 # Description<br>
 
@@ -6,13 +6,13 @@ Hermes is a web application that visualises data from worldbank thanks to d3 lib
 The worldbank data are available in the input folder in a zip file that contains 3 csv file.<br>
 
 # Installation<br>
-Install Xampp,MySQL and PHP.<br>
+Install  * Xampp * MySQL * PHP.<br>
 
 # Usage<br>
-At your xampp control Panel start the MySQL server and the Apache.<br>
-Load the data(3 .csv each represents a table at your database) from the HermesInput folder(input.zip) to your database.<br>
-Load welocome.php to you browser.<br>
-Explore the project.<br>
+1. At your xampp control Panel start the MySQL server and the Apache.<br>
+2. Load the data(3 .csv each represents a table at your database) from the HermesInput folder(input.zip) to your database.<br>
+3. Load welocome.php to you browser.<br>
+4. Explore the project.<br>
 
 # Future additions<br>
 Add more Indicator Codes and countries from worldbank.<br>
