@@ -3,7 +3,7 @@
 ## Description<br>
 
 Hermes is a web application that visualises data from worldbank thanks to d3 library.<br>
-The worldbank data are available in the input folder in a zip file that contains 3 csv file.<br>
+The worldbank data are available in the input folder in a zip file that contains 3 .csv files.<br>
 
 ## Installation<br>
 Install  **Xampp**,**MySQL**,**PHP**.<br>
