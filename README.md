@@ -20,5 +20,4 @@ Install  **Xampp**,**MySQL**,**PHP**.<br>
 3. Add PHPUnit tests.<br>
 
 ## Notes<br>
-The application has been updated so the contents at the deliverables folder are not up to date.<br>
-The deliverables folder will be updated soon.
+You can have a brief preview of the projest by reading the .pdf file. The images are not up to date but they will be soon.
