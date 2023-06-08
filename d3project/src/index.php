@@ -234,9 +234,9 @@ require_once "constants/DBconstants.php";
         </div>
     <div class="infos">
         <h1>Help</h1>
-        <p>1) Press the category button at the Drop Down Menu.<br>
+        <p>1) From the dropdown menu choose the category button.<br>
         2) Choose the data category you want to explore.<br>
-        3) Choose the countries you want to compare.At this momment there are only 10 but we are working on it.<br>
+        3) Select the countries you want to compare.<br>
         !Attention! Step 1,2,3 are the same for each chart.<br>
         4) Complete only the forms at the chart you want.<br>
         </p>   
